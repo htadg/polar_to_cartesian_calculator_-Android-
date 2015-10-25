@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <string name="title_section1">Converter</string>
+    <string name="title_section2">Calculator</string>
+    <string name="title_section3">Polar and Cartesian Calculator</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="polar">Polar Form :</string>
+    <string name="cartesian">Cartesian Form :</string>
+    <string name="angle">Image of an Angle</string>
+    <string name="calc">Convert</string>
+    <string name="j"> + j</string>
+    <string name="theta"> + Ɵ</string>
+    <string name="ptc">Polar to Cartesian</string>
+    <string name="ctp">Cartesian to Polar</string>
+    <string name="dev">Developed by Hiten</string>
+    <string name="nothing"> </string>
+    <string name="hint">0.00</string>
+    <string name = "clear">Clear</string>
+    <string name="FILE_NAME">Last Values</string>
+    <string name="Calc">Calc</string>
+
+    <string name="radio">radio</string>
+    <string name="r">r</string>
+    <string name="a">a</string>
+    <string name="cx">cx</string>
+    <string name="cy">cy</string>
+
+</resources>

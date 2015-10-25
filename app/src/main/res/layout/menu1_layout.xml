@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dip"
+    android:layout_marginRight="20dip"
+    android:layout_marginTop="20dip"
+    android:layout_marginBottom="20dip"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/ptc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ptc"
+                android:checked="true"
+                android:textSize="13sp"/>
+
+            <RadioButton
+                android:id="@+id/ctp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ctp"
+                android:textSize="13sp"/>
+        </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:orientation="horizontal"
+            android:gravity="right|bottom">
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="94dip"
+                android:layout_height="wrap_content"
+                android:background="#1b515f"
+                android:text="@string/clear"
+                android:textColor="#FFF"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="@string/polar"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/radius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dip"
+            android:layout_weight="5"
+            android:inputType="number|numberDecimal|numberSigned"
+            android:hint="@string/hint"
+            android:text="@string/nothing"
+            android:gravity="right"
+            android:maxLength="7"/>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:contentDescription="@string/angle"
+            android:src="@drawable/angle_u2220_icon_128x128"
+            android:layout_marginTop="20dip"
+            android:layout_weight="0.5"/>
+
+        <EditText
+            android:id="@+id/angle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dip"
+            android:layout_weight="5"
+            android:inputType="number|numberDecimal|numberSigned"
+            android:hint="@string/hint"
+            android:text="@string/nothing"
+            android:gravity="right"
+            android:maxLength="7"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="@string/calc"
+        android:background="#1b515f"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="@string/cartesian"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/carx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dip"
+            android:layout_weight="1"
+            android:inputType="number|numberDecimal|numberSigned"
+            android:hint="@string/hint"
+            android:text="@string/nothing"
+            android:gravity="right"
+            android:maxLength="7"/>
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:text="@string/j"
+            android:layout_marginTop="20dip"
+            android:textSize="25sp"
+            android:fontFamily="courier"/>
+
+        <EditText
+            android:id="@+id/cary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dip"
+            android:layout_weight="1"
+            android:inputType="number|numberDecimal|numberSigned"
+            android:hint="@string/hint"
+            android:text="@string/nothing"
+            android:gravity="right"
+            android:maxLength="7"/>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|right">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dev"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#1b515f"
+        android:textSize="12sp" />
+
+</LinearLayout>
+
+</LinearLayout>
